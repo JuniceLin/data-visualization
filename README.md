@@ -1,4 +1,4 @@
-# Guided Alignment Explorer
+# Prompt–Image Preference Explorer
 
 An interactive redesign of the **overview and keyword-exploration workflow** in DKMap. The redesign does not claim that text-to-image and text-to-video are equivalent. It transfers an interaction question from my earlier generative-video project—how can users inspect model evidence—into the image domain studied by DKMap.
 
@@ -8,13 +8,18 @@ GitHub Pages: https://junicelin.github.io/data-visualization/
 
 ## Design gap and response
 
-DKMap's supplementary study reports requests for a clearer overview summary, manual keyword retrieval, and more meaningful keyword guidance. This prototype adds:
+DKMap's supplementary study reports requests for a clearer overview summary, manual keyword retrieval, and more meaningful keyword guidance. This redesigned prototype adds:
 
-1. a guided four-step entry path;
-2. a plain-language, evidence-first summary;
-3. manual prompt keyword search and model/outcome filters;
-4. record-level inspection of prompt, model, human label, date, and source row;
-5. visible data boundaries and field definitions.
+1. a concise three-part reading path: overview, filter, and interpretation boundary;
+2. a 40-dot coverage view that visibly includes five missing labels;
+3. a directly labeled 17-to-18 balance chart without declaring a winner;
+4. a responsive model-appearance chart that updates with the filters and is explicitly not a win or quality ranking;
+5. manual prompt keyword search and model/outcome filters;
+6. paired-image records with an unambiguous "selected in this record" label;
+7. record-level inspection of prompt, model, raw human label, date, and source row;
+8. adjacent supported/not-supported claim boundaries and plain-language field definitions.
+
+The visual language uses an editorial grid, square edges, restrained typography, and three semantic colors instead of dashboard cards and decorative gradients. Color is always paired with text.
 
 ## Data contract
 
